@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\xulei\Desktop\python\python-ejercicio\.venv
+set VIRTUAL_ENV=c:\Users\xulei\Desktop\Python_Ej\python-ejercicio\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 
