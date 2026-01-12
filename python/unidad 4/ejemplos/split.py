@@ -38,3 +38,32 @@ colores = ["rojo", "verde", "azul"]
 borrar=colores.pop(2)
 colores.remove(borrar)
 print(colores)
+
+
+
+# --------------------tuplas------------------
+titulo = "Titulo 1"
+tupla_libro = (titulo, 2000, "Tolkein")
+print("tupla_libro acceder a año", tupla_libro[1])
+print("Tupla antes de cambair el titulo", tupla_libro)
+
+titulo = "Titulo 2"
+print("Tupla despues de cambiar el libro", tupla_libro)
+
+mysql_conn_params = ("http://phpmyadmin", 336, "root")
+
+url, port, user = mysql_conn_params
+
+urñ, *others = mysql_conn_params
+
+print(others)
+
+libros = [("libro 1", 2000, "Tolkein"), ("libro2", 2020, "Tolkein 2")]
+for titulo, year, author in libros:
+    print(year)
+
+"""
+libros = [("libro 1", 2000, "Tolkein"), ("libro2", 2020, "Tolkein 2")]
+for libro in libros:
+    print(libros)
+"""
