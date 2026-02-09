@@ -11,11 +11,17 @@ class Pizza:
 
     def imprimir_ascii(self):
         """TODO: devolver dibujo ASCII de la pizza"""
-        return """         ____________
-                         //            \\
-                       //                 
-                      // 
-                    
-                        
-                        
-                        """
+        return """       ||||||||||||||||||
+                       //                  \\
+                      //                    \\  
+                     //                      \\
+                    //                        \\
+                    ||        PIZZA DE        ||
+                    ||           {}           ||
+                    \\                        //     
+                     \\                      //       
+                      \\                    //        
+                       \\                  //         
+.                        ||||||||||||||||||
+            """.format(self.__nombre)
+    

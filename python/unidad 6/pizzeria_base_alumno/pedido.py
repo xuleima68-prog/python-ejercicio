@@ -9,3 +9,5 @@ class Pedido:
         for pizza in self.__pizzas:
             print(pizza.get_nombre())
             print(pizza.imprimir_ascii())
+    
+    
