@@ -19,6 +19,7 @@ def main():
             # muestra al usuario opciones para que elija qué ingredientes quiere añadir a su pizza, 
             # hasta que elija la opción de terminar pizza
             # Por ejemplo, así añadiría Queso y después terminaría la pizza.
+            
             """
                 Ingredientes:
                 1. Queso
